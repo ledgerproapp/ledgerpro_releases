@@ -1,43 +1,43 @@
 {
-  "version": "1.1.0",
-  "tag": "v1.1.0",
-  "asset": "LedgerPro-v1.1.0-win-x64.zip",
-  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.1.0/LedgerPro-v1.1.0-win-x64.zip",
-  "sha256": "86f80f4fb79453e1b90240d9fc8f8203b38b2ee144da4cb37b0f7230b1872a76",
-  "size": 159635165,
-  "releaseDate": "2026-09-27T16:39:35.276Z",
+  "version": "1.2.0",
+  "tag": "v1.2.0",
+  "asset": "LedgerPro-v1.2.0-win-x64.zip",
+  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.0/LedgerPro-v1.2.0-win-x64.zip",
+  "sha256": "5defff0d9b8364fc61d6eb1e09cbcee073ef7f424a15e9cd502a1b54b6f68f0d",
+  "size": 159777658,
+  "releaseDate": "2026-09-28T13:01:00.994Z",
   "mandatory": false,
-  "notes": "- Portable and encrypted: runs from a folder or USB drive without installation; all data is stored encrypted next to the app\n- Accounts (customers, suppliers, personnel), receivables and payables, collections and payments in any currency or precious metal\n- Installment plans, due tracking, day closing, corrections and cancellations with a full audit trail\n- Home page with charts: last 12 months of sales vs. collections and purchases vs. payments, receivables aging, cash movement of the last 30 days\n- Reports: account statement, category, personnel, due dates, weekly and monthly cash flow, aging, rate history, closed days\n- 15 themes with their own menu layouts, light and dark mode, 48 accent colors and 20 fonts; 10 languages including right-to-left\n- Compressed, encrypted automatic and manual backups; a transfer package for moving to a new computer\n- Demo records: sample data for every day since the start of the year (Settings > Security)\n- Security password that wipes the data and opens with sample data when used under pressure\n- Signed automatic updates on Windows (x64, ARM64), macOS (Apple Silicon, Intel) and Linux",
+  "notes": "- Import accounts and opening balances from Excel: download the template, fill it in and pick the file; every row is previewed before anything is saved\n- Payment methods (cash, bank transfer, credit card, cheque, promissory note and your own): required on every collection and payment, shown in the transaction list, statement and filters\n- New report: collections and payments by payment method\n- Categories: main and sub-categories are easier to create, with a clear tree view\n- Account list shows accounts with a balance by default, with a new currency filter\n- Totals row under the lists, per currency\n- Progress bar while the app starts and during long operations\n- Fixes: a rare crash in the import preview; restoring backups after a database update",
   "assets": {
     "win-x64": {
-      "asset": "LedgerPro-v1.1.0-win-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.1.0/LedgerPro-v1.1.0-win-x64.zip",
-      "sha256": "86f80f4fb79453e1b90240d9fc8f8203b38b2ee144da4cb37b0f7230b1872a76",
-      "size": 159635165
+      "asset": "LedgerPro-v1.2.0-win-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.0/LedgerPro-v1.2.0-win-x64.zip",
+      "sha256": "5defff0d9b8364fc61d6eb1e09cbcee073ef7f424a15e9cd502a1b54b6f68f0d",
+      "size": 159777658
     },
     "win-arm64": {
-      "asset": "LedgerPro-v1.1.0-win-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.1.0/LedgerPro-v1.1.0-win-arm64.zip",
-      "sha256": "50bbd2297c229fb59ada6de851cfa50d409b9c8c0d1242f60cdbe096e1ec927f",
-      "size": 157795606
+      "asset": "LedgerPro-v1.2.0-win-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.0/LedgerPro-v1.2.0-win-arm64.zip",
+      "sha256": "cab02198d3c50f1442d5e8d7463328046fc5aded8316118c0b8d2e52f38597d3",
+      "size": 157944001
     },
     "mac-arm64": {
-      "asset": "LedgerPro-v1.1.0-mac-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.1.0/LedgerPro-v1.1.0-mac-arm64.zip",
-      "sha256": "20f397d4d49f3fd0a72b459becddb1562a09c4c606d97c06adc50d832567c299",
-      "size": 129024896
+      "asset": "LedgerPro-v1.2.0-mac-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.0/LedgerPro-v1.2.0-mac-arm64.zip",
+      "sha256": "91e5d3820ad14bf10daf7d1e9acff6679ebf45aabb809862a52ec7fe4acdf444",
+      "size": 129141686
     },
     "mac-x64": {
-      "asset": "LedgerPro-v1.1.0-mac-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.1.0/LedgerPro-v1.1.0-mac-x64.zip",
-      "sha256": "bc3d5c4520aa94645dd784a23a1c67b79a2442905cfee67d666aa95dac688803",
-      "size": 134712793
+      "asset": "LedgerPro-v1.2.0-mac-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.0/LedgerPro-v1.2.0-mac-x64.zip",
+      "sha256": "0ca5d4b8e4c0f32c043abc36b1fae78c1a683985d234ecb8cfc9b1f1567a2542",
+      "size": 134851120
     },
     "linux-x64": {
-      "asset": "LedgerPro-v1.1.0-linux-x64.AppImage",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.1.0/LedgerPro-v1.1.0-linux-x64.AppImage",
-      "sha256": "40a69988d2f50fcd0137f2ad235ab39016298885c13b6ce87cc247a9f4007a98",
-      "size": 135182140
+      "asset": "LedgerPro-v1.2.0-linux-x64.AppImage",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.0/LedgerPro-v1.2.0-linux-x64.AppImage",
+      "sha256": "052e5223af6e56a13d2153da51318f9a971d0d4919dedd60a997bc97e444a965",
+      "size": 135375069
     }
   }
 }
