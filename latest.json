@@ -1,43 +1,43 @@
 {
-  "version": "1.2.2",
-  "tag": "v1.2.2",
-  "asset": "LedgerPro-v1.2.2-win-x64.zip",
-  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.2/LedgerPro-v1.2.2-win-x64.zip",
-  "sha256": "c627b39cc062af874aaa1975e7b3b0d2ed3041a86fff59cdceffd42da9db6742",
-  "size": 159972830,
-  "releaseDate": "2026-09-28T21:10:52.501Z",
+  "version": "1.2.3",
+  "tag": "v1.2.3",
+  "asset": "LedgerPro-v1.2.3-win-x64.zip",
+  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.3/LedgerPro-v1.2.3-win-x64.zip",
+  "sha256": "30ff372e9d27eeb789570b9fc0393a4070a37440cf0b5379d3b62719e4e4b299",
+  "size": 160130593,
+  "releaseDate": "2026-10-01T14:04:04.108Z",
   "mandatory": false,
-  "notes": "- Accrual, Collection / Payment and Transfer open their own lists first; separate buttons for each direction: New receivable accrual, New payable accrual, New collection, New payment, New transfer (also on All transactions and Due tracking)\n- The base currency equivalent is shown under every amount in another currency in the transaction lists, due tracking and reports; the ≈ button above a table hides or shows them\n- Monthly accruals and payments: choose which lines to show (accrual, payment, remaining or all), search by account and show only accounts with a remaining amount\n- Home page: exchange rates and quick actions are no longer shown by default (rates can be added back)\n- The note field on entry forms is two lines high\n- Filters open from the Filter button as a drop-down panel instead of a fixed panel on the left; Esc or a click outside closes it\n- Transaction types are shown in their own colors in the transaction lists\n- Definitions (account types, account and transaction categories, payment methods, units, due templates) have colors: automatic, or chosen in Definitions; they are shown in lists and reports\n- Categories: a main category with sub-categories can no longer be assigned (choose a sub-category), and a main category already in use cannot get sub-categories\n- Customer, Supplier and Other are built-in account types like Employee and Student: always active, their names can be changed\n- Receivable and payable accruals can be imported from Excel (Transactions > Accrual > Import from Excel): download the template, fill it in and every row is checked before anything is saved\n- Error reports never contain anything typed into records: account names, codes, notes, addresses and other entered values are recognized and hidden\n- The full list is now called \"All transactions\"\n- Monthly accruals and payments: the remaining line stands out, the yearly total is the first column, and the account type is chosen from a drop-down (employees, students, customers, suppliers, other or all)\n- Screenshots and screen recording of the app window are blocked on Windows and macOS\n- Error reports (Settings → Error reports): unexpected errors are recorded on this computer only, without personal data; you can preview a report and save it to share with support. Nothing is sent automatically\n- If a screen fails, a message with a Reload button appears instead of an empty window",
+  "notes": "- Error reports: after signing in, unsent errors can be sent to the developer with one click; a GitHub page prefilled with the sanitized report opens in your browser (public; no personal data) and is sent when you submit it\n- Home page sections can be resized: narrower or wider and shorter or taller, with buttons or by dragging the corner\n- Base currency equivalents (≈) also on the account list, opening balances and day closing; totals rows show one ≈ total for all units\n- Backups: the newest 30 backups of all kinds are kept; older ones are deleted automatically\n- A transfer package is deleted securely after it has been imported successfully\n- The in-app help was rewritten for the current screens (new sections: home page, account list, transfer, error reports) and no longer jumps when opened with F1\n- Monthly accruals and payments: a calmer highlight for the remaining line\n- Security: a second save pressed while a record is still being saved no longer creates a duplicate record\n- LedgerPro now runs only from a USB disk (flash drive, external USB SSD or hard disk). Started from a computer's fixed disk it cannot be set up; existing data there opens read only so you can move it to a USB disk with a transfer package\n- Choose the base currency in the last setup step; sample data is created in the chosen currency\n- Importing opening balances from Excel: a transaction category is now required on every balance line\n- Cash flow report and home page card: weekly, monthly, yearly or a chosen date range\n- Cash flow chart: collections are shown in green and payments in red, matching the legend\n- Backups can be deleted from the Backup screen (main password required; the file is wiped)\n- Updates also work when the program folder is read-only: the read-only attribute is removed automatically (your data, backups and transfer packages are not touched)",
   "assets": {
     "win-x64": {
-      "asset": "LedgerPro-v1.2.2-win-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.2/LedgerPro-v1.2.2-win-x64.zip",
-      "sha256": "c627b39cc062af874aaa1975e7b3b0d2ed3041a86fff59cdceffd42da9db6742",
-      "size": 159972830
+      "asset": "LedgerPro-v1.2.3-win-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.3/LedgerPro-v1.2.3-win-x64.zip",
+      "sha256": "30ff372e9d27eeb789570b9fc0393a4070a37440cf0b5379d3b62719e4e4b299",
+      "size": 160130593
     },
     "win-arm64": {
-      "asset": "LedgerPro-v1.2.2-win-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.2/LedgerPro-v1.2.2-win-arm64.zip",
-      "sha256": "e430a0cd7e7c74d04ae99d1400c03862f46be32b5c4b48c7bb9ce871a12ae8ab",
-      "size": 158119627
+      "asset": "LedgerPro-v1.2.3-win-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.3/LedgerPro-v1.2.3-win-arm64.zip",
+      "sha256": "f9b0c5fe8a728b9653af1483980c26fcc70a38c13ceaf21dfcd6627f60a6c3b5",
+      "size": 158279528
     },
     "mac-arm64": {
-      "asset": "LedgerPro-v1.2.2-mac-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.2/LedgerPro-v1.2.2-mac-arm64.zip",
-      "sha256": "a41e0623d69b4fff3d94ec125436550d26459a47e9c7a166f7989ade8c6276cb",
-      "size": 129351545
+      "asset": "LedgerPro-v1.2.3-mac-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.3/LedgerPro-v1.2.3-mac-arm64.zip",
+      "sha256": "cd46e449c0ffe22da759927f142593d3e4304075edc7502fc4d84c990c67b25d",
+      "size": 129509055
     },
     "mac-x64": {
-      "asset": "LedgerPro-v1.2.2-mac-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.2/LedgerPro-v1.2.2-mac-x64.zip",
-      "sha256": "5b701d454834c51bd3b6c6a60aa74f4768209371b85dfdcb1b68b4559ec6f17b",
-      "size": 135058670
+      "asset": "LedgerPro-v1.2.3-mac-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.3/LedgerPro-v1.2.3-mac-x64.zip",
+      "sha256": "f1c4608547849060e152f0d0f13e65a4a02c0a38855e4dc77794df2e5f13f93b",
+      "size": 135214110
     },
     "linux-x64": {
-      "asset": "LedgerPro-v1.2.2-linux-x64.AppImage",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.2/LedgerPro-v1.2.2-linux-x64.AppImage",
-      "sha256": "022e6d8faee51f1d03093eaeab422f53e5a75fa2151df4cce4f220698b3df90f",
-      "size": 135534911
+      "asset": "LedgerPro-v1.2.3-linux-x64.AppImage",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.3/LedgerPro-v1.2.3-linux-x64.AppImage",
+      "sha256": "a7e706405498f94b1eeef57ea7763d908f562404aa70f3c9f4a75c8a600bebbc",
+      "size": 135694785
     }
   }
 }
