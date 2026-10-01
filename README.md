@@ -14,11 +14,11 @@ Encrypted receivables and payables tracking that works offline.
 | macOS 12+ Intel | `LedgerPro-vX.Y.Z-mac-x64.zip` |
 | Linux 64-bit | `LedgerPro-vX.Y.Z-linux-x64.AppImage` |
 
-No installation is needed. The app checks for a new version when it starts and keeps working normally without internet. Data is stored encrypted in the `data` folder next to the app.
+No installation is needed. LedgerPro runs only from a USB-connected disk (flash drive, external USB SSD or hard disk); started from a computer's fixed disk it cannot be set up. The app checks for a new version when it starts and keeps working normally without internet. Data is stored encrypted in the `data` folder next to the app.
 
-**Windows:** Extract the ZIP to a folder or a USB drive and run `LedgerPro.exe`.
+**Windows:** Extract the ZIP to a USB disk and run `LedgerPro.exe`.
 
-**macOS:** Open the ZIP and move `LedgerPro.app` to a folder or a USB drive.
+**macOS:** Open the ZIP and move `LedgerPro.app` to a folder on a USB disk.
 1. The app is not signed, so before the first start run this command once in Terminal. The path must be the folder where you put LedgerPro:
 
    ```
@@ -27,7 +27,7 @@ No installation is needed. The app checks for a new version when it starts and k
 
 2. If macOS asks for Keychain access, choose **Always Allow**. Because the app is unsigned, this may be asked once more after each update. If you choose **Deny**, the app cannot open, but no data is lost; open it again and allow access.
 
-**Linux:** Put the `.AppImage` file in a folder and make it executable:
+**Linux:** Put the `.AppImage` file in a folder on a USB disk and make it executable:
 
 ```
 chmod +x LedgerPro-*.AppImage
