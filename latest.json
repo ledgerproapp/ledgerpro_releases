@@ -1,43 +1,43 @@
 {
-  "version": "1.3.0",
-  "tag": "v1.3.0",
-  "asset": "LedgerPro-v1.3.0-win-x64.zip",
-  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.3.0/LedgerPro-v1.3.0-win-x64.zip",
-  "sha256": "f1de243197defa9cf96eed13a9a6867ca897139f8d3632fb1a36de70de86086b",
-  "size": 160642451,
-  "releaseDate": "2026-10-02T14:41:13.424Z",
+  "version": "1.4.0",
+  "tag": "v1.4.0",
+  "asset": "LedgerPro-v1.4.0-win-x64.zip",
+  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.4.0/LedgerPro-v1.4.0-win-x64.zip",
+  "sha256": "8c3219d454d1988a7fbdafc0333b7f338946ce99a4bb98449d6db2efacfa66ca",
+  "size": 160794814,
+  "releaseDate": "2026-10-02T19:47:29.737Z",
   "mandatory": false,
-  "notes": "- Excel-like column filters in every list: values with counts, amount and date ranges, sorting from the column header\n- Income / Expense: one list with New income / New expense (like Collection / Payment) for cash entries without an account (canteen, ticket desk, rent, bills, groceries…), with standard income and expense types built in; in the base currency they can be switched on in Settings > Company\n- Payment types in two levels: Cash, Bank, Cheque, Promissory note, POS, Digital POS, Credit card and Gift voucher, with your own banks and POS devices under them\n- Daily cash book: every money movement of a day and the end-of-day balance of each payment type and unit; carried-over cash is entered on the Opening balances screen\n- Payment type ledger report: every movement of a payment type with a running balance that starts from the carried-over balance, for a day or a date range, with the end-of-day balances on the side\n- Transfer now moves money between payment types (cheque cashed, POS to bank, cash deposited or withdrawn); it replaces the transfer between accounts (old records stay)\n- Quick entry: every record type on one screen, one after another (Ctrl/Cmd+J, Alt+1…7)\n- Record types have their own color and icon everywhere\n- Setup starts with a Company step: name, country, province / state, city, base currency (a missing currency is added automatically), business sector and contact details; the same fields are in Settings > Company\n- Business sectors add matching income and expense categories\n- New home page cards: cash position, monthly in – out, income / expense split, cash over 30 days and the monthly collection rate\n- Day closing shows income and expense separately and stores the end-of-day cash balances\n- Error reports are sent by e-mail from your mail app (no GitHub account needed); the full report is also on the clipboard\n- Fixed: the screen could go blank after two quick page changes\n- Fixed disk: only the first setup is refused with a \"run it from a USB disk\" message; existing data on a fixed disk no longer opens read only\n- A transfer package can be saved only on the USB disk the program runs from",
+  "notes": "- Users and permissions: the owner adds users with their own passwords and chooses, page by page and form by form, what each of them may view, add and edit; templates for view only, data entry and full access\n- Every record shows who created and who last changed it\n- Setup is done only on an encrypted disk (BitLocker on Windows, encrypted APFS on macOS, LUKS on Linux); existing data on an unencrypted disk shows a warning\n- Restore from backup on the start screen: a backup taken on this computer and USB disk can be restored after the database or key file was lost\n- Program name and logo: 10 logos to choose from; on Windows the program files take the program name too\n- Sample data is created in the language you chose; amounts kept small\n- New entries from an account card keep that account selected\n- Fixed: the monthly collection rate and the performance card showed impossible values with the sample data\n- Fixed: an error during setup from a transfer package was not shown\n- \"Digital POS\" is no longer a built-in payment type; where it is already in use it stays",
   "assets": {
     "win-x64": {
-      "asset": "LedgerPro-v1.3.0-win-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.3.0/LedgerPro-v1.3.0-win-x64.zip",
-      "sha256": "f1de243197defa9cf96eed13a9a6867ca897139f8d3632fb1a36de70de86086b",
-      "size": 160642451
+      "asset": "LedgerPro-v1.4.0-win-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.4.0/LedgerPro-v1.4.0-win-x64.zip",
+      "sha256": "8c3219d454d1988a7fbdafc0333b7f338946ce99a4bb98449d6db2efacfa66ca",
+      "size": 160794814
     },
     "win-arm64": {
-      "asset": "LedgerPro-v1.3.0-win-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.3.0/LedgerPro-v1.3.0-win-arm64.zip",
-      "sha256": "99d09198bc4ecc262aaf1b530d0d18b92970313119f892c6ca04a2635813145e",
-      "size": 158820498
+      "asset": "LedgerPro-v1.4.0-win-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.4.0/LedgerPro-v1.4.0-win-arm64.zip",
+      "sha256": "c22a3d973f03ee1658a5b72fff5a2a5e3e967d55e691a53d446b936a79133f3e",
+      "size": 158806455
     },
     "mac-arm64": {
-      "asset": "LedgerPro-v1.3.0-mac-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.3.0/LedgerPro-v1.3.0-mac-arm64.zip",
-      "sha256": "5744a2567e1b433678e0b51a20c87c2f03bec257045a48fffb47687ebeabd162",
-      "size": 130020986
+      "asset": "LedgerPro-v1.4.0-mac-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.4.0/LedgerPro-v1.4.0-mac-arm64.zip",
+      "sha256": "b038447e145a3c9591e416e2aae4d5060a4865ce79d69dcec56e0618e513427d",
+      "size": 130174155
     },
     "mac-x64": {
-      "asset": "LedgerPro-v1.3.0-mac-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.3.0/LedgerPro-v1.3.0-mac-x64.zip",
-      "sha256": "385cee7ea96fa9fcf80aa70bcae1cafb380d3ba8e43c95d19336382a426781cd",
-      "size": 135758450
+      "asset": "LedgerPro-v1.4.0-mac-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.4.0/LedgerPro-v1.4.0-mac-x64.zip",
+      "sha256": "cda8849c3b3b855e4a5a1364beddf61f4d38d5e3049230cf9da5d4c2f5893483",
+      "size": 135766626
     },
     "linux-x64": {
-      "asset": "LedgerPro-v1.3.0-linux-x64.AppImage",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.3.0/LedgerPro-v1.3.0-linux-x64.AppImage",
-      "sha256": "7a4ba5c6ceacbd587a53ed2b6473ae2d10f9df3b1a965700ff7e58bb20287176",
-      "size": 136207138
+      "asset": "LedgerPro-v1.4.0-linux-x64.AppImage",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.4.0/LedgerPro-v1.4.0-linux-x64.AppImage",
+      "sha256": "19d65e19525ef5f93055dc1f32a8cc2ce5634af02fb6d66a61b251f9e989b576",
+      "size": 136363176
     }
   }
 }
