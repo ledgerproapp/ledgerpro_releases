@@ -1,43 +1,43 @@
 {
-  "version": "1.2.3",
-  "tag": "v1.2.3",
-  "asset": "LedgerPro-v1.2.3-win-x64.zip",
-  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.3/LedgerPro-v1.2.3-win-x64.zip",
-  "sha256": "30ff372e9d27eeb789570b9fc0393a4070a37440cf0b5379d3b62719e4e4b299",
-  "size": 160130593,
-  "releaseDate": "2026-10-01T14:04:04.108Z",
+  "version": "1.3.0",
+  "tag": "v1.3.0",
+  "asset": "LedgerPro-v1.3.0-win-x64.zip",
+  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.3.0/LedgerPro-v1.3.0-win-x64.zip",
+  "sha256": "f1de243197defa9cf96eed13a9a6867ca897139f8d3632fb1a36de70de86086b",
+  "size": 160642451,
+  "releaseDate": "2026-10-02T14:41:13.424Z",
   "mandatory": false,
-  "notes": "- Error reports: after signing in, unsent errors can be sent to the developer with one click; a GitHub page prefilled with the sanitized report opens in your browser (public; no personal data) and is sent when you submit it\n- Home page sections can be resized: narrower or wider and shorter or taller, with buttons or by dragging the corner\n- Base currency equivalents (≈) also on the account list, opening balances and day closing; totals rows show one ≈ total for all units\n- Backups: the newest 30 backups of all kinds are kept; older ones are deleted automatically\n- A transfer package is deleted securely after it has been imported successfully\n- The in-app help was rewritten for the current screens (new sections: home page, account list, transfer, error reports) and no longer jumps when opened with F1\n- Monthly accruals and payments: a calmer highlight for the remaining line\n- Security: a second save pressed while a record is still being saved no longer creates a duplicate record\n- LedgerPro now runs only from a USB disk (flash drive, external USB SSD or hard disk). Started from a computer's fixed disk it cannot be set up; existing data there opens read only so you can move it to a USB disk with a transfer package\n- Choose the base currency in the last setup step; sample data is created in the chosen currency\n- Importing opening balances from Excel: a transaction category is now required on every balance line\n- Cash flow report and home page card: weekly, monthly, yearly or a chosen date range\n- Cash flow chart: collections are shown in green and payments in red, matching the legend\n- Backups can be deleted from the Backup screen (main password required; the file is wiped)\n- Updates also work when the program folder is read-only: the read-only attribute is removed automatically (your data, backups and transfer packages are not touched)",
+  "notes": "- Excel-like column filters in every list: values with counts, amount and date ranges, sorting from the column header\n- Income / Expense: one list with New income / New expense (like Collection / Payment) for cash entries without an account (canteen, ticket desk, rent, bills, groceries…), with standard income and expense types built in; in the base currency they can be switched on in Settings > Company\n- Payment types in two levels: Cash, Bank, Cheque, Promissory note, POS, Digital POS, Credit card and Gift voucher, with your own banks and POS devices under them\n- Daily cash book: every money movement of a day and the end-of-day balance of each payment type and unit; carried-over cash is entered on the Opening balances screen\n- Payment type ledger report: every movement of a payment type with a running balance that starts from the carried-over balance, for a day or a date range, with the end-of-day balances on the side\n- Transfer now moves money between payment types (cheque cashed, POS to bank, cash deposited or withdrawn); it replaces the transfer between accounts (old records stay)\n- Quick entry: every record type on one screen, one after another (Ctrl/Cmd+J, Alt+1…7)\n- Record types have their own color and icon everywhere\n- Setup starts with a Company step: name, country, province / state, city, base currency (a missing currency is added automatically), business sector and contact details; the same fields are in Settings > Company\n- Business sectors add matching income and expense categories\n- New home page cards: cash position, monthly in – out, income / expense split, cash over 30 days and the monthly collection rate\n- Day closing shows income and expense separately and stores the end-of-day cash balances\n- Error reports are sent by e-mail from your mail app (no GitHub account needed); the full report is also on the clipboard\n- Fixed: the screen could go blank after two quick page changes\n- Fixed disk: only the first setup is refused with a \"run it from a USB disk\" message; existing data on a fixed disk no longer opens read only\n- A transfer package can be saved only on the USB disk the program runs from",
   "assets": {
     "win-x64": {
-      "asset": "LedgerPro-v1.2.3-win-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.3/LedgerPro-v1.2.3-win-x64.zip",
-      "sha256": "30ff372e9d27eeb789570b9fc0393a4070a37440cf0b5379d3b62719e4e4b299",
-      "size": 160130593
+      "asset": "LedgerPro-v1.3.0-win-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.3.0/LedgerPro-v1.3.0-win-x64.zip",
+      "sha256": "f1de243197defa9cf96eed13a9a6867ca897139f8d3632fb1a36de70de86086b",
+      "size": 160642451
     },
     "win-arm64": {
-      "asset": "LedgerPro-v1.2.3-win-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.3/LedgerPro-v1.2.3-win-arm64.zip",
-      "sha256": "f9b0c5fe8a728b9653af1483980c26fcc70a38c13ceaf21dfcd6627f60a6c3b5",
-      "size": 158279528
+      "asset": "LedgerPro-v1.3.0-win-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.3.0/LedgerPro-v1.3.0-win-arm64.zip",
+      "sha256": "99d09198bc4ecc262aaf1b530d0d18b92970313119f892c6ca04a2635813145e",
+      "size": 158820498
     },
     "mac-arm64": {
-      "asset": "LedgerPro-v1.2.3-mac-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.3/LedgerPro-v1.2.3-mac-arm64.zip",
-      "sha256": "cd46e449c0ffe22da759927f142593d3e4304075edc7502fc4d84c990c67b25d",
-      "size": 129509055
+      "asset": "LedgerPro-v1.3.0-mac-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.3.0/LedgerPro-v1.3.0-mac-arm64.zip",
+      "sha256": "5744a2567e1b433678e0b51a20c87c2f03bec257045a48fffb47687ebeabd162",
+      "size": 130020986
     },
     "mac-x64": {
-      "asset": "LedgerPro-v1.2.3-mac-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.3/LedgerPro-v1.2.3-mac-x64.zip",
-      "sha256": "f1c4608547849060e152f0d0f13e65a4a02c0a38855e4dc77794df2e5f13f93b",
-      "size": 135214110
+      "asset": "LedgerPro-v1.3.0-mac-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.3.0/LedgerPro-v1.3.0-mac-x64.zip",
+      "sha256": "385cee7ea96fa9fcf80aa70bcae1cafb380d3ba8e43c95d19336382a426781cd",
+      "size": 135758450
     },
     "linux-x64": {
-      "asset": "LedgerPro-v1.2.3-linux-x64.AppImage",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.2.3/LedgerPro-v1.2.3-linux-x64.AppImage",
-      "sha256": "a7e706405498f94b1eeef57ea7763d908f562404aa70f3c9f4a75c8a600bebbc",
-      "size": 135694785
+      "asset": "LedgerPro-v1.3.0-linux-x64.AppImage",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.3.0/LedgerPro-v1.3.0-linux-x64.AppImage",
+      "sha256": "7a4ba5c6ceacbd587a53ed2b6473ae2d10f9df3b1a965700ff7e58bb20287176",
+      "size": 136207138
     }
   }
 }
