@@ -1,43 +1,43 @@
 {
-  "version": "1.4.0",
-  "tag": "v1.4.0",
-  "asset": "LedgerPro-v1.4.0-win-x64.zip",
-  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.4.0/LedgerPro-v1.4.0-win-x64.zip",
-  "sha256": "8c3219d454d1988a7fbdafc0333b7f338946ce99a4bb98449d6db2efacfa66ca",
-  "size": 160794814,
-  "releaseDate": "2026-10-02T19:47:29.737Z",
+  "version": "1.5.0",
+  "tag": "v1.5.0",
+  "asset": "LedgerPro-v1.5.0-win-x64.zip",
+  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.5.0/LedgerPro-v1.5.0-win-x64.zip",
+  "sha256": "2e9a2548871e18a18a7f591273917a9a05bf3c941b125e0c4dfb9529f4057560",
+  "size": 161279492,
+  "releaseDate": "2026-10-03T02:55:47.320Z",
   "mandatory": false,
-  "notes": "- Users and permissions: the owner adds users with their own passwords and chooses, page by page and form by form, what each of them may view, add and edit; templates for view only, data entry and full access\n- Every record shows who created and who last changed it\n- Setup is done only on an encrypted disk (BitLocker on Windows, encrypted APFS on macOS, LUKS on Linux); existing data on an unencrypted disk shows a warning\n- Restore from backup on the start screen: a backup taken on this computer and USB disk can be restored after the database or key file was lost\n- Program name and logo: 10 logos to choose from; on Windows the program files take the program name too\n- Sample data is created in the language you chose; amounts kept small\n- New entries from an account card keep that account selected\n- Fixed: the monthly collection rate and the performance card showed impossible values with the sample data\n- Fixed: an error during setup from a transfer package was not shown\n- \"Digital POS\" is no longer a built-in payment type; where it is already in use it stays",
+  "notes": "- Send a suggestion or request to the developer from Help or Settings; you see exactly what is sent, and your e-mail address goes only if you allow it\n- Several computers on a local network: one USB is the host with the data, others connect to it as clients (encrypted, no internet); devices pair with a 6-digit code and a fingerprint check; each person signs in with an own username and permissions\n- Summary cards at the top of the home page in every theme: total receivable, total payable, net balance and today's collections\n- Color palettes: 19 palettes (including 3 soft light greys) for menus, cards, buttons, tables and forms, each with light and dark tones; the accent color can still be chosen\n- New theme \"Office\": a wide sidebar with the auto-lock countdown and the user card, search on top\n- Existing data on an unencrypted disk no longer opens: the program asks for the disk to be encrypted first (BitLocker on Windows); the data is not deleted and opens again once the disk is encrypted\n- 10 more logos to choose from (20 in all): calculator, receipt, briefcase, safe, key, globe, anchor, gem, calendar, layers\n- A host serving the network locks only its screen after 1 minute without activity (password to continue, connected devices keep working); the session closes after 10 minutes\n- Screens use their space better: one-line page headers, compact filters, the less common \"New\" buttons under \"More\"\n- A demo notice at the top of every screen and in the status bar",
   "assets": {
     "win-x64": {
-      "asset": "LedgerPro-v1.4.0-win-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.4.0/LedgerPro-v1.4.0-win-x64.zip",
-      "sha256": "8c3219d454d1988a7fbdafc0333b7f338946ce99a4bb98449d6db2efacfa66ca",
-      "size": 160794814
+      "asset": "LedgerPro-v1.5.0-win-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.5.0/LedgerPro-v1.5.0-win-x64.zip",
+      "sha256": "2e9a2548871e18a18a7f591273917a9a05bf3c941b125e0c4dfb9529f4057560",
+      "size": 161279492
     },
     "win-arm64": {
-      "asset": "LedgerPro-v1.4.0-win-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.4.0/LedgerPro-v1.4.0-win-arm64.zip",
-      "sha256": "c22a3d973f03ee1658a5b72fff5a2a5e3e967d55e691a53d446b936a79133f3e",
-      "size": 158806455
+      "asset": "LedgerPro-v1.5.0-win-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.5.0/LedgerPro-v1.5.0-win-arm64.zip",
+      "sha256": "3ac6db6c788d26ac16af9cfb81001a3c2710d414526db783b302f3391e38846c",
+      "size": 159277222
     },
     "mac-arm64": {
-      "asset": "LedgerPro-v1.4.0-mac-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.4.0/LedgerPro-v1.4.0-mac-arm64.zip",
-      "sha256": "b038447e145a3c9591e416e2aae4d5060a4865ce79d69dcec56e0618e513427d",
-      "size": 130174155
+      "asset": "LedgerPro-v1.5.0-mac-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.5.0/LedgerPro-v1.5.0-mac-arm64.zip",
+      "sha256": "e0505df0847961534c4dc6a01f31cfda32134d5d81e46daaa9d2b5b54a9cfadb",
+      "size": 130657773
     },
     "mac-x64": {
-      "asset": "LedgerPro-v1.4.0-mac-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.4.0/LedgerPro-v1.4.0-mac-x64.zip",
-      "sha256": "cda8849c3b3b855e4a5a1364beddf61f4d38d5e3049230cf9da5d4c2f5893483",
-      "size": 135766626
+      "asset": "LedgerPro-v1.5.0-mac-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.5.0/LedgerPro-v1.5.0-mac-x64.zip",
+      "sha256": "3d22b3bb27705a8608600e03e09bbfb2393e93d7d25ba31feccee8fed21e4f48",
+      "size": 136229828
     },
     "linux-x64": {
-      "asset": "LedgerPro-v1.4.0-linux-x64.AppImage",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.4.0/LedgerPro-v1.4.0-linux-x64.AppImage",
-      "sha256": "19d65e19525ef5f93055dc1f32a8cc2ce5634af02fb6d66a61b251f9e989b576",
-      "size": 136363176
+      "asset": "LedgerPro-v1.5.0-linux-x64.AppImage",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.5.0/LedgerPro-v1.5.0-linux-x64.AppImage",
+      "sha256": "93dd8af9c33cf57ee896b2a443944102b7c38d3d7040dbcfe839097b651dfd87",
+      "size": 136851205
     }
   }
 }
