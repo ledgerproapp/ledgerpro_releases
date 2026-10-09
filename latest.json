@@ -1,25 +1,25 @@
 {
-  "version": "1.5.2",
-  "tag": "v1.5.2",
-  "asset": "LedgerPro-v1.5.2-win-x64.zip",
-  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.5.2/LedgerPro-v1.5.2-win-x64.zip",
-  "sha256": "b5553ccd3b4e152312e60b4c2a28ee77384ddcda36022f74df14d0c02ded3295",
-  "size": 203551611,
-  "releaseDate": "2026-10-06T19:00:35.415Z",
+  "version": "1.5.3",
+  "tag": "v1.5.3",
+  "asset": "LedgerPro-v1.5.3-win-x64.zip",
+  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.5.3/LedgerPro-v1.5.3-win-x64.zip",
+  "sha256": "f9c7c6c34ee22a4ecac3b980bd8da0b35501cd771ef1f6fa17569f2facb3b685",
+  "size": 203595775,
+  "releaseDate": "2026-10-09T04:52:35.372Z",
   "mandatory": false,
-  "notes": "- This release is for Windows. macOS and Linux stay on 1.5.1 for now; their update follows\n- A computer connected to a host can check for and install updates for its own program again; if the host runs another version, the connection screen offers the update\n- Technical problems are sent to the developer automatically in the background when there is internet (without asking; each problem once, with no personal data). This can be turned off under Settings > Error reports\n- Income and expense can be entered in every currency, the base currency included, in every business sector (the setting for it is gone)\n- The company details no longer ask for province / state and district / city\n- Opening balances in a currency or metal need their purchase rate (on the screen and in Excel); the rate appears in the rate list, so base currency equivalents are right\n- The opening balances screen has a transaction category column, as in the Excel import\n- New report: Income statement. Income and expenses by transaction category, monthly, yearly or for a date range, on an accrual or cash basis, by main category or in detail\n- New report: Assets and liabilities. Cash and bank, receivables by due date, payables and the net position (equity) on month ends, year ends or two dates, with a net position bridge, the currency and gold position and financial indicators\n- New help: every topic is a step-by-step guide in your own language. Choose what you want to do, then follow one step at a time (or all on one page) with a screenshot of the program in your language, numbered marks on what to click, tips, \"Stuck?\" answers and the meaning of the words. F1 opens the guide of the current screen; the earlier full text stays under \"All details and rules\"\n- The \"This database cannot be opened here\" screen offers three buttons: load a transfer package, restore from a backup, or set up from scratch. A fresh setup does not delete the old data; it is moved aside into an \"old-…\" folder. The setup screen shows its other ways as buttons too",
+  "notes": "- Automatic lock when the computer is left idle: first the screen locks and your page is kept (unlock with your password), then the database closes, and finally the program quits — each after its own idle time\n- The status bar shows a live countdown to the next automatic lock; click it to lock right away\n- Backups: several backups taken on the same day are reduced to that day's latest, and the newest 30 are kept\n- The screen shown when a copy cannot be opened here now has buttons to set up from scratch or to restore from a backup\n- Step-by-step help with its own screenshots, in every language (press F1)\n- Fixed: some setup forms did not scroll and the step did not advance\n- This update is for Windows; the macOS and Linux versions stay on their current version",
   "assets": {
     "win-x64": {
-      "asset": "LedgerPro-v1.5.2-win-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.5.2/LedgerPro-v1.5.2-win-x64.zip",
-      "sha256": "b5553ccd3b4e152312e60b4c2a28ee77384ddcda36022f74df14d0c02ded3295",
-      "size": 203551611
+      "asset": "LedgerPro-v1.5.3-win-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.5.3/LedgerPro-v1.5.3-win-x64.zip",
+      "sha256": "f9c7c6c34ee22a4ecac3b980bd8da0b35501cd771ef1f6fa17569f2facb3b685",
+      "size": 203595775
     },
     "win-arm64": {
-      "asset": "LedgerPro-v1.5.2-win-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.5.2/LedgerPro-v1.5.2-win-arm64.zip",
-      "sha256": "5ff3cf3b2d7bb1241ed6a1a76ae5c7a8a0f46d067dc45dedfadae84a56ca23c0",
-      "size": 201563100
+      "asset": "LedgerPro-v1.5.3-win-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.5.3/LedgerPro-v1.5.3-win-arm64.zip",
+      "sha256": "8848eee3502a3c6cd63e069b3b9e98ecb3dc01efe4ba18a3ccf9662bbb9d3f80",
+      "size": 201605799
     }
   }
 }
