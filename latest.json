@@ -1,25 +1,25 @@
 {
-  "version": "1.5.3",
-  "tag": "v1.5.3",
-  "asset": "LedgerPro-v1.5.3-win-x64.zip",
-  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.5.3/LedgerPro-v1.5.3-win-x64.zip",
-  "sha256": "f9c7c6c34ee22a4ecac3b980bd8da0b35501cd771ef1f6fa17569f2facb3b685",
-  "size": 203595775,
-  "releaseDate": "2026-10-09T04:52:35.372Z",
+  "version": "1.6.0",
+  "tag": "v1.6.0",
+  "asset": "LedgerPro-v1.6.0-win-x64.zip",
+  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.0/LedgerPro-v1.6.0-win-x64.zip",
+  "sha256": "eed238952cefdd9fb36803ed101e0608b3d5812635c2b5eb53f199d18ee0a668",
+  "size": 206805836,
+  "releaseDate": "2026-10-12T18:58:48.813Z",
   "mandatory": false,
-  "notes": "- Automatic lock when the computer is left idle: first the screen locks and your page is kept (unlock with your password), then the database closes, and finally the program quits — each after its own idle time\n- The status bar shows a live countdown to the next automatic lock; click it to lock right away\n- Backups: several backups taken on the same day are reduced to that day's latest, and the newest 30 are kept\n- The screen shown when a copy cannot be opened here now has buttons to set up from scratch or to restore from a backup\n- Step-by-step help with its own screenshots, in every language (press F1)\n- Fixed: some setup forms did not scroll and the step did not advance\n- This update is for Windows; the macOS and Linux versions stay on their current version",
+  "notes": "- New bookkeeping layer: everything you record is posted to a chart of accounts automatically in the background — entry screens stay the same, with no account codes to choose\n- Your country's chart of accounts is set up at first setup (local charts for Turkey and 21 European countries; other countries get a standard chart in their own currency)\n- New Financial reports screen: balance sheet, income statement, trial balance with opening balances, ledgers, cash flow and changes in equity, plus financial analysis ratios\n- Reports by period (all, this month, this year, last year) with an optional comparison to the same period a year earlier, including the change in %\n- Fixed assets: vehicles, buildings, land and equipment with detailed fields; buy, sell or scrap them, record assets you already owned, or record a purchase directly from the expense and payable screens\n- New transaction types: owner contribution, owner draw, loan given, bank loan, interest paid and received, and buying an asset on credit\n- The chart of accounts shows each account's balance and its currency amounts\n- A corrected record now appears as a single row marked \"Corrected\"\n- Payment types are defined in one place (Definitions > Payment types); new sub-types get their own account automatically\n- Tables widen columns to fit names, and your column choices are saved per user inside your encrypted data\n- Bookkeeping mode in Settings > Company: Simple (the default, everything automatic) or Advanced, which shows the chart of accounts and lets you choose the ledger account of each payment type\n- Ledgers show a description for every entry; currency columns start hidden, and financial statements open on this year with the comparison turned on\n- About is now its own page in the System menu\n- Sample data now shows every kind of record\n- Stronger protection of the program's stored check results\n- This update is for Windows; the macOS and Linux versions stay on their current version",
   "assets": {
     "win-x64": {
-      "asset": "LedgerPro-v1.5.3-win-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.5.3/LedgerPro-v1.5.3-win-x64.zip",
-      "sha256": "f9c7c6c34ee22a4ecac3b980bd8da0b35501cd771ef1f6fa17569f2facb3b685",
-      "size": 203595775
+      "asset": "LedgerPro-v1.6.0-win-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.0/LedgerPro-v1.6.0-win-x64.zip",
+      "sha256": "eed238952cefdd9fb36803ed101e0608b3d5812635c2b5eb53f199d18ee0a668",
+      "size": 206805836
     },
     "win-arm64": {
-      "asset": "LedgerPro-v1.5.3-win-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.5.3/LedgerPro-v1.5.3-win-arm64.zip",
-      "sha256": "8848eee3502a3c6cd63e069b3b9e98ecb3dc01efe4ba18a3ccf9662bbb9d3f80",
-      "size": 201605799
+      "asset": "LedgerPro-v1.6.0-win-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.0/LedgerPro-v1.6.0-win-arm64.zip",
+      "sha256": "e0693163a63e9175a84d5447f3a358cc505d9be86e4132acc5711e80e0ab9c9a",
+      "size": 204835494
     }
   }
 }
