@@ -1,25 +1,25 @@
 {
-  "version": "1.6.0",
-  "tag": "v1.6.0",
-  "asset": "LedgerPro-v1.6.0-win-x64.zip",
-  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.0/LedgerPro-v1.6.0-win-x64.zip",
-  "sha256": "eed238952cefdd9fb36803ed101e0608b3d5812635c2b5eb53f199d18ee0a668",
-  "size": 206805836,
-  "releaseDate": "2026-10-12T18:58:48.813Z",
+  "version": "1.6.1",
+  "tag": "v1.6.1",
+  "asset": "LedgerPro-v1.6.1-win-x64.zip",
+  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.1/LedgerPro-v1.6.1-win-x64.zip",
+  "sha256": "847b47ca773c6cc6dcd08506a0ab1b5cf5635f33ba35328aa6687fb7d4defb33",
+  "size": 206995887,
+  "releaseDate": "2026-10-13T09:31:41.049Z",
   "mandatory": false,
-  "notes": "- New bookkeeping layer: everything you record is posted to a chart of accounts automatically in the background — entry screens stay the same, with no account codes to choose\n- Your country's chart of accounts is set up at first setup (local charts for Turkey and 21 European countries; other countries get a standard chart in their own currency)\n- New Financial reports screen: balance sheet, income statement, trial balance with opening balances, ledgers, cash flow and changes in equity, plus financial analysis ratios\n- Reports by period (all, this month, this year, last year) with an optional comparison to the same period a year earlier, including the change in %\n- Fixed assets: vehicles, buildings, land and equipment with detailed fields; buy, sell or scrap them, record assets you already owned, or record a purchase directly from the expense and payable screens\n- New transaction types: owner contribution, owner draw, loan given, bank loan, interest paid and received, and buying an asset on credit\n- The chart of accounts shows each account's balance and its currency amounts\n- A corrected record now appears as a single row marked \"Corrected\"\n- Payment types are defined in one place (Definitions > Payment types); new sub-types get their own account automatically\n- Tables widen columns to fit names, and your column choices are saved per user inside your encrypted data\n- Bookkeeping mode in Settings > Company: Simple (the default, everything automatic) or Advanced, which shows the chart of accounts and lets you choose the ledger account of each payment type\n- Ledgers show a description for every entry; currency columns start hidden, and financial statements open on this year with the comparison turned on\n- About is now its own page in the System menu\n- Sample data now shows every kind of record\n- Stronger protection of the program's stored check results\n- This update is for Windows; the macOS and Linux versions stay on their current version",
+  "notes": "- Local charts of accounts for 112 countries, in the local language; every other country uses the chart of the country it follows, in its own currency\n- More ready-made transaction types: refund of an advance received or paid, owner draw returned, gift voucher sold and capital withdrawn\n- New ready-made transaction types are added automatically when your country's chart is updated; your own types are never changed\n- The chart of accounts and the advanced bookkeeping mode are available depending on your country\n- This update is for Windows; the macOS and Linux versions stay on their current version",
   "assets": {
     "win-x64": {
-      "asset": "LedgerPro-v1.6.0-win-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.0/LedgerPro-v1.6.0-win-x64.zip",
-      "sha256": "eed238952cefdd9fb36803ed101e0608b3d5812635c2b5eb53f199d18ee0a668",
-      "size": 206805836
+      "asset": "LedgerPro-v1.6.1-win-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.1/LedgerPro-v1.6.1-win-x64.zip",
+      "sha256": "847b47ca773c6cc6dcd08506a0ab1b5cf5635f33ba35328aa6687fb7d4defb33",
+      "size": 206995887
     },
     "win-arm64": {
-      "asset": "LedgerPro-v1.6.0-win-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.0/LedgerPro-v1.6.0-win-arm64.zip",
-      "sha256": "e0693163a63e9175a84d5447f3a358cc505d9be86e4132acc5711e80e0ab9c9a",
-      "size": 204835494
+      "asset": "LedgerPro-v1.6.1-win-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.1/LedgerPro-v1.6.1-win-arm64.zip",
+      "sha256": "0a05ca58ee6598a635f95b63ef8caa200936c562d4c18eed81755e6dbe7da3e6",
+      "size": 205024282
     }
   }
 }
