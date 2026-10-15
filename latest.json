@@ -1,25 +1,25 @@
 {
-  "version": "1.6.2",
-  "tag": "v1.6.2",
-  "asset": "LedgerPro-v1.6.2-win-x64.zip",
-  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.2/LedgerPro-v1.6.2-win-x64.zip",
-  "sha256": "9620fb7b89b74403c4edf5e15066e0a42a3c3a91526c658114ed9db6899ea7d5",
-  "size": 205004156,
-  "releaseDate": "2026-10-13T17:18:24.211Z",
+  "version": "1.6.3",
+  "tag": "v1.6.3",
+  "asset": "LedgerPro-v1.6.3-win-x64.zip",
+  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.3/LedgerPro-v1.6.3-win-x64.zip",
+  "sha256": "b430034786a5523416adc3c0c64ea79ded49239437adfab95970bb5d33127d10",
+  "size": 209468079,
+  "releaseDate": "2026-10-14T23:25:13.060Z",
   "mandatory": false,
-  "notes": "- Every page has a suggestion icon in its header; your request tells the developer which screen it was written on (no record contents are sent), and the preview shows the whole text before sending\n- If your company was set up before your country's chart of accounts was available, it moves to the local chart at the next sign-in; balances stay the same\n- The balance sheet and the income statement show account codes\n- Financial reports follow the chart of accounts module available in your country\n- This update is for Windows; the macOS and Linux versions stay on their current version",
+  "notes": "- Simpler menus: related screens now share one page and you switch between them with the buttons in the page header, without opening new tabs\n  - All transactions: accruals, collections / payments, income / expense and transfers\n  - Daily cash book: cash book, close day and closed days\n  - Definitions: account, transaction and finance definitions\n  - Reports: financial position, account reports, due analysis (including due tracking) and payment type reports\n- On list pages the filter and \"New\" buttons sit above the table, next to the search box\n- Every button, menu, tab and choice now has an icon\n- Transaction types have their own screen under Definitions and are available in every bookkeeping mode\n- The chart of accounts and the financial reports are shown or hidden together: only in the advanced bookkeeping mode\n- When the Windows screen saver or computer lock starts, LedgerPro locks its screen instead of signing you out\n- In entry forms the account list opens after you type 3 letters, and a new account can be added with the icon next to the account field\n- Note fields in entry forms are a single line\n- Resetting data or loading sample data uses your country's chart of accounts\n- The country chosen at setup shows in Settings > Company\n- Receivable accruals offer income categories, payable accruals expense categories\n- The account list has a \"Show accounts with no balance\" option, off by default\n- Required fields are marked with *",
   "assets": {
     "win-x64": {
-      "asset": "LedgerPro-v1.6.2-win-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.2/LedgerPro-v1.6.2-win-x64.zip",
-      "sha256": "9620fb7b89b74403c4edf5e15066e0a42a3c3a91526c658114ed9db6899ea7d5",
-      "size": 205004156
+      "asset": "LedgerPro-v1.6.3-win-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.3/LedgerPro-v1.6.3-win-x64.zip",
+      "sha256": "b430034786a5523416adc3c0c64ea79ded49239437adfab95970bb5d33127d10",
+      "size": 209468079
     },
     "win-arm64": {
-      "asset": "LedgerPro-v1.6.2-win-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.2/LedgerPro-v1.6.2-win-arm64.zip",
-      "sha256": "f29fc6f2438ddc2076177fe2b52545d3e6dba579e4beadc0b7a14024b957bccf",
-      "size": 203045863
+      "asset": "LedgerPro-v1.6.3-win-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.3/LedgerPro-v1.6.3-win-arm64.zip",
+      "sha256": "fe19e2c3ddee8848fe5e615a938d5756bf7fa7875e410df9a3b47f9de0c14cb9",
+      "size": 207492147
     }
   }
 }
