@@ -1,25 +1,25 @@
 {
-  "version": "1.6.3",
-  "tag": "v1.6.3",
-  "asset": "LedgerPro-v1.6.3-win-x64.zip",
-  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.3/LedgerPro-v1.6.3-win-x64.zip",
-  "sha256": "b430034786a5523416adc3c0c64ea79ded49239437adfab95970bb5d33127d10",
-  "size": 209468079,
-  "releaseDate": "2026-10-14T23:25:13.060Z",
+  "version": "1.6.4",
+  "tag": "v1.6.4",
+  "asset": "LedgerPro-v1.6.4-win-x64.zip",
+  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.4/LedgerPro-v1.6.4-win-x64.zip",
+  "sha256": "3018422544df8f15778c2e49804c4585cfce02084ced9f4f8daab91853c8f691",
+  "size": 198840936,
+  "releaseDate": "2026-10-15T09:20:43.778Z",
   "mandatory": false,
-  "notes": "- Simpler menus: related screens now share one page and you switch between them with the buttons in the page header, without opening new tabs\n  - All transactions: accruals, collections / payments, income / expense and transfers\n  - Daily cash book: cash book, close day and closed days\n  - Definitions: account, transaction and finance definitions\n  - Reports: financial position, account reports, due analysis (including due tracking) and payment type reports\n- On list pages the filter and \"New\" buttons sit above the table, next to the search box\n- Every button, menu, tab and choice now has an icon\n- Transaction types have their own screen under Definitions and are available in every bookkeeping mode\n- The chart of accounts and the financial reports are shown or hidden together: only in the advanced bookkeeping mode\n- When the Windows screen saver or computer lock starts, LedgerPro locks its screen instead of signing you out\n- In entry forms the account list opens after you type 3 letters, and a new account can be added with the icon next to the account field\n- Note fields in entry forms are a single line\n- Resetting data or loading sample data uses your country's chart of accounts\n- The country chosen at setup shows in Settings > Company\n- Receivable accruals offer income categories, payable accruals expense categories\n- The account list has a \"Show accounts with no balance\" option, off by default\n- Required fields are marked with *",
+  "notes": "- Each account type gets its own receivable and payable sub-account in the chart of accounts (for example customers, students, suppliers and personnel), so the trial balance shows balances by account type; new account types get their accounts automatically\n- Payment types show the ledger account they post to in every bookkeeping mode\n- POS payment types can have the number of days until the money reaches the bank; credit cards can have a statement day and a payment due day. Collections and payments then show the day the money actually moves, and the cash flow report uses that date\n- Cheque and note payments require a maturity date; they appear in the cash flow on that date and in a new \"Cheques / notes\" view under Due tracking\n- Opening cash balances in a foreign currency or metal require an exchange rate\n- After a day is closed, the payment type of its entries can no longer be changed\n- In opening balances the transaction category comes right after the account\n- The account list shows all accounts in card view by default\n- An account with a balance cannot be made inactive\n- Entry forms: field descriptions open from the (i) next to the field name, and the note field fills the free space in its row\n- LedgerPro cleans up its own temporary and cache files at startup and exit; your data and backups are never touched\n- A smaller download\n- This update is for Windows; the macOS and Linux versions stay on their current version",
   "assets": {
     "win-x64": {
-      "asset": "LedgerPro-v1.6.3-win-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.3/LedgerPro-v1.6.3-win-x64.zip",
-      "sha256": "b430034786a5523416adc3c0c64ea79ded49239437adfab95970bb5d33127d10",
-      "size": 209468079
+      "asset": "LedgerPro-v1.6.4-win-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.4/LedgerPro-v1.6.4-win-x64.zip",
+      "sha256": "3018422544df8f15778c2e49804c4585cfce02084ced9f4f8daab91853c8f691",
+      "size": 198840936
     },
     "win-arm64": {
-      "asset": "LedgerPro-v1.6.3-win-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.3/LedgerPro-v1.6.3-win-arm64.zip",
-      "sha256": "fe19e2c3ddee8848fe5e615a938d5756bf7fa7875e410df9a3b47f9de0c14cb9",
-      "size": 207492147
+      "asset": "LedgerPro-v1.6.4-win-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.4/LedgerPro-v1.6.4-win-arm64.zip",
+      "sha256": "9e30cc4e0110d10604553f2ac6fd34368358b9742f55a546c1a333eecce81684",
+      "size": 197025917
     }
   }
 }
