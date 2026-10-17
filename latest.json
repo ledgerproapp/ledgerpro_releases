@@ -1,25 +1,25 @@
 {
-  "version": "1.6.5",
-  "tag": "v1.6.5",
-  "asset": "LedgerPro-v1.6.5-win-x64.zip",
-  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.5/LedgerPro-v1.6.5-win-x64.zip",
-  "sha256": "867da39576a6525f6d383ab0120a1b447440b9eb567d16e06be4a4203bc25392",
-  "size": 199351817,
-  "releaseDate": "2026-10-17T02:44:06.817Z",
+  "version": "1.6.6",
+  "tag": "v1.6.6",
+  "asset": "LedgerPro-v1.6.6-win-x64.zip",
+  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.6/LedgerPro-v1.6.6-win-x64.zip",
+  "sha256": "f5a72fe360269740fb984d65a2188864b8f8d494f41c9abb69326c5e5608a2f8",
+  "size": 199415071,
+  "releaseDate": "2026-10-17T04:49:20.896Z",
   "mandatory": false,
-  "notes": "- Account screen with a financial overview: balance and 7-month trend, account statement, open documents, monthly chart, collection, risk, turnover and volume ratios, aging and recent records, per currency\n- Working past midnight: while only yesterday is open, new entries are dated yesterday (with yesterday's exchange rate) until you close the day; with older open days you can save drafts and close all open days in one step after reviewing them\n- Error messages appear as notifications with the field name; the field with an error is outlined in red\n- Amounts get thousands separators while you type\n- Account names in the chart of accounts and financial reports appear in your language\n- Chart of accounts is the first tab under Financial statements; the trial balance no longer lists two-digit class groups; journal, general ledger and subsidiary ledger show entry numbers and voucher types\n- Print opens a preview with page headers and numbers; wide reports print in landscape\n- Change log: who changed what and when, with a \"What changed\" summary; each account and entry shows its history\n- Assets: the button is now \"Opening asset entry\"; new purchases are entered from the expense or payable accrual form; assets can be corrected or cancelled; opening assets are locked after the first day is closed\n- Transfers can buy or sell foreign currency and gold between payment types\n- Lending, loans, advances and capital movements are no longer counted as income or expense\n- Payment sub-types get their own account under their parent's account\n- Unused categories, payment types and transaction types can be deleted\n- Referrals are chosen from the account list\n- Due templates can fall on a fixed day of the month, with more ready-made templates\n- Transfer packages are also protected by the owner's user name and main password\n- Feedback can include up to 3 images or a screenshot\n- The DEMO label shows its explanation from the (i) next to it; Business activity has an explanation of what it adds\n- The permission template name stays visible and changes to \"Custom\" when you change a permission\n- Daily cash book is in the Reports menu\n- Fixed: an error report could be sent when the screen locked\n- Stronger protection of local settings and files\n- This update is for Windows; the macOS and Linux versions stay on their current version",
+  "notes": "- Transaction detail page redesigned: a clear summary with the amount, a two-column details grid, the documents a payment closed (with installment and due date), transfer \"from → to\", accrual progress, and a record panel with who created / changed it and its history; actions that cannot be used are no longer shown\n- Lists and open screens refresh by themselves after any save or delete (for example a new account appears at once in the referral field, and a deleted category's account leaves the chart of accounts)\n- Category and payment type choices are grouped: the main category is a bold heading and sub-categories are listed by their own name, so typing finds them\n- Transaction category is required on new accruals and opening balances\n- Assets: the standard details are required (vehicle: plate, brand, model, year; building: address, city, area; land: address, city, parcel, area; equipment: brand, model)\n- Unused sub-categories created by the system can be deleted; main groups and asset categories stay\n- This update is for Windows; the macOS and Linux versions stay on their current version",
   "assets": {
     "win-x64": {
-      "asset": "LedgerPro-v1.6.5-win-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.5/LedgerPro-v1.6.5-win-x64.zip",
-      "sha256": "867da39576a6525f6d383ab0120a1b447440b9eb567d16e06be4a4203bc25392",
-      "size": 199351817
+      "asset": "LedgerPro-v1.6.6-win-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.6/LedgerPro-v1.6.6-win-x64.zip",
+      "sha256": "f5a72fe360269740fb984d65a2188864b8f8d494f41c9abb69326c5e5608a2f8",
+      "size": 199415071
     },
     "win-arm64": {
-      "asset": "LedgerPro-v1.6.5-win-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.5/LedgerPro-v1.6.5-win-arm64.zip",
-      "sha256": "31891c70357b211c58070bbb4849a02f828efb64a894bc74d378d44bccbcdd31",
-      "size": 197544150
+      "asset": "LedgerPro-v1.6.6-win-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.6/LedgerPro-v1.6.6-win-arm64.zip",
+      "sha256": "4605ee575bf2bf044a9f3770bcc897021f51f07c68925212cd85d5ce51b50b9b",
+      "size": 197621016
     }
   }
 }
