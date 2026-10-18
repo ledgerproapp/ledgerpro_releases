@@ -1,25 +1,25 @@
 {
-  "version": "1.6.6",
-  "tag": "v1.6.6",
-  "asset": "LedgerPro-v1.6.6-win-x64.zip",
-  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.6/LedgerPro-v1.6.6-win-x64.zip",
-  "sha256": "f5a72fe360269740fb984d65a2188864b8f8d494f41c9abb69326c5e5608a2f8",
-  "size": 199415071,
-  "releaseDate": "2026-10-17T04:49:20.896Z",
+  "version": "1.6.7",
+  "tag": "v1.6.7",
+  "asset": "LedgerPro-v1.6.7-win-x64.zip",
+  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.7/LedgerPro-v1.6.7-win-x64.zip",
+  "sha256": "5cc2307677aeb99d16e7a3f7c9a614bb6e7eb514eec55508132a3ce3ac9fa55f",
+  "size": 199918888,
+  "releaseDate": "2026-10-18T02:04:57.382Z",
   "mandatory": false,
-  "notes": "- Transaction detail page redesigned: a clear summary with the amount, a two-column details grid, the documents a payment closed (with installment and due date), transfer \"from → to\", accrual progress, and a record panel with who created / changed it and its history; actions that cannot be used are no longer shown\n- Lists and open screens refresh by themselves after any save or delete (for example a new account appears at once in the referral field, and a deleted category's account leaves the chart of accounts)\n- Category and payment type choices are grouped: the main category is a bold heading and sub-categories are listed by their own name, so typing finds them\n- Transaction category is required on new accruals and opening balances\n- Assets: the standard details are required (vehicle: plate, brand, model, year; building: address, city, area; land: address, city, parcel, area; equipment: brand, model)\n- Unused sub-categories created by the system can be deleted; main groups and asset categories stay\n- This update is for Windows; the macOS and Linux versions stay on their current version",
+  "notes": "- Projects: define project types and projects (campaigns, construction, events…), link accruals and income to a project, and follow each project's profit / loss, collection performance and targets under Reports › Projects, with a year-by-year view per project type\n- Project codes are suggested from the project type (General → GEN-26; a second one in the same year → GEN-26-02); unused projects and types can be deleted, and used ones show how many records they have\n- Financial statements in the standard format: balance sheet with assets and liabilities side by side, income statement with sections and subtotals, journal and general ledger grouped by main account, all on screen and in print\n- New account summary: month by month opening, movement and balance of an account\n- Chart of accounts: filter by account class, and the row actions (edit, deactivate) are visible buttons\n- Negative amounts are always red in financial reports; sub-accounts are no longer indented\n- Account reports and dashboards open in your local currency; \"Currency\" shows the per-currency breakdown\n- Lists show amounts in local currency with a single \"Currency\" column; correcting a record keeps its document number\n- A cancelled record can be restored\n- Transaction detail: all actions are buttons at the top, with a collection ring and an installment timeline\n- Filters are in the page header, and each page's description opens from the (i) next to its title\n- The DEMO notice is a yellow DEMO button next to the notifications bell\n- Daily cash book shows totals of cash in and cash out; account list opens as a table and remembers your choice\n- This update is for Windows; the macOS and Linux versions stay on their current version",
   "assets": {
     "win-x64": {
-      "asset": "LedgerPro-v1.6.6-win-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.6/LedgerPro-v1.6.6-win-x64.zip",
-      "sha256": "f5a72fe360269740fb984d65a2188864b8f8d494f41c9abb69326c5e5608a2f8",
-      "size": 199415071
+      "asset": "LedgerPro-v1.6.7-win-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.7/LedgerPro-v1.6.7-win-x64.zip",
+      "sha256": "5cc2307677aeb99d16e7a3f7c9a614bb6e7eb514eec55508132a3ce3ac9fa55f",
+      "size": 199918888
     },
     "win-arm64": {
-      "asset": "LedgerPro-v1.6.6-win-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.6/LedgerPro-v1.6.6-win-arm64.zip",
-      "sha256": "4605ee575bf2bf044a9f3770bcc897021f51f07c68925212cd85d5ce51b50b9b",
-      "size": 197621016
+      "asset": "LedgerPro-v1.6.7-win-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.7/LedgerPro-v1.6.7-win-arm64.zip",
+      "sha256": "467da650a6e3f75254b0e9c0a4777673633baf64cfe7c83e92347e06cae7eea1",
+      "size": 198124519
     }
   }
 }
