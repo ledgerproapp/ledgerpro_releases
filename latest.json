@@ -1,25 +1,25 @@
 {
-  "version": "1.6.7",
-  "tag": "v1.6.7",
-  "asset": "LedgerPro-v1.6.7-win-x64.zip",
-  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.7/LedgerPro-v1.6.7-win-x64.zip",
-  "sha256": "5cc2307677aeb99d16e7a3f7c9a614bb6e7eb514eec55508132a3ce3ac9fa55f",
-  "size": 199918888,
-  "releaseDate": "2026-10-18T02:04:57.382Z",
+  "version": "1.6.8",
+  "tag": "v1.6.8",
+  "asset": "LedgerPro-v1.6.8-win-x64.zip",
+  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.8/LedgerPro-v1.6.8-win-x64.zip",
+  "sha256": "7251fcbaea98bd890d92c75e2299e8f75e010aa56db7ed4b604d1123d414d6b3",
+  "size": 199713812,
+  "releaseDate": "2026-10-18T09:05:19.280Z",
   "mandatory": false,
-  "notes": "- Projects: define project types and projects (campaigns, construction, events…), link accruals and income to a project, and follow each project's profit / loss, collection performance and targets under Reports › Projects, with a year-by-year view per project type\n- Project codes are suggested from the project type (General → GEN-26; a second one in the same year → GEN-26-02); unused projects and types can be deleted, and used ones show how many records they have\n- Financial statements in the standard format: balance sheet with assets and liabilities side by side, income statement with sections and subtotals, journal and general ledger grouped by main account, all on screen and in print\n- New account summary: month by month opening, movement and balance of an account\n- Chart of accounts: filter by account class, and the row actions (edit, deactivate) are visible buttons\n- Negative amounts are always red in financial reports; sub-accounts are no longer indented\n- Account reports and dashboards open in your local currency; \"Currency\" shows the per-currency breakdown\n- Lists show amounts in local currency with a single \"Currency\" column; correcting a record keeps its document number\n- A cancelled record can be restored\n- Transaction detail: all actions are buttons at the top, with a collection ring and an installment timeline\n- Filters are in the page header, and each page's description opens from the (i) next to its title\n- The DEMO notice is a yellow DEMO button next to the notifications bell\n- Daily cash book shows totals of cash in and cash out; account list opens as a table and remembers your choice\n- This update is for Windows; the macOS and Linux versions stay on their current version",
+  "notes": "- Network: the main computer no longer shuts down while others are working; the database closes only after 10 minutes with no activity on any computer, and the program stays open so others can continue once the owner signs in again\n- Network: other computers lock after 10 minutes without activity, as the status bar shows\n- Down payment and installments: choose \"Excluded\" (the rest is split into installments, the down payment is its own closed line) or \"Included\"; Excluded is the default\n- Transaction categories can be linked to a project family: choosing the category fills in the family's current project\n- Project family codes use the first letter and the following consonants (General → GNL); a second project in the same year gets -02\n- Projects report: Profit / Loss and Collection performance are shown as tabs\n- Transfers: ready-made choices for paying the credit card (from bank, cash or POS) and moving money from the card to cash, bank or POS\n- This update is for Windows; the macOS and Linux versions stay on their current version",
   "assets": {
     "win-x64": {
-      "asset": "LedgerPro-v1.6.7-win-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.7/LedgerPro-v1.6.7-win-x64.zip",
-      "sha256": "5cc2307677aeb99d16e7a3f7c9a614bb6e7eb514eec55508132a3ce3ac9fa55f",
-      "size": 199918888
+      "asset": "LedgerPro-v1.6.8-win-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.8/LedgerPro-v1.6.8-win-x64.zip",
+      "sha256": "7251fcbaea98bd890d92c75e2299e8f75e010aa56db7ed4b604d1123d414d6b3",
+      "size": 199713812
     },
     "win-arm64": {
-      "asset": "LedgerPro-v1.6.7-win-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.7/LedgerPro-v1.6.7-win-arm64.zip",
-      "sha256": "467da650a6e3f75254b0e9c0a4777673633baf64cfe7c83e92347e06cae7eea1",
-      "size": 198124519
+      "asset": "LedgerPro-v1.6.8-win-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.8/LedgerPro-v1.6.8-win-arm64.zip",
+      "sha256": "5ed09d238e873e0f23142a69da5d0428e7c18f3bc73611d5b02f9701031d5c16",
+      "size": 197920918
     }
   }
 }
