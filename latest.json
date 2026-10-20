@@ -1,25 +1,25 @@
 {
-  "version": "1.6.9",
-  "tag": "v1.6.9",
-  "asset": "LedgerPro-v1.6.9-win-x64.zip",
-  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.9/LedgerPro-v1.6.9-win-x64.zip",
-  "sha256": "aebbd896250ff56a8a9a75acae186eec9a95fdcd671f74cc386fa47aa34b3bd4",
-  "size": 199821801,
-  "releaseDate": "2026-10-20T06:24:03.208Z",
+  "version": "1.6.10",
+  "tag": "v1.6.10",
+  "asset": "LedgerPro-v1.6.10-win-x64.zip",
+  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.10/LedgerPro-v1.6.10-win-x64.zip",
+  "sha256": "a656fbf3986c2e15a5bf44b6057903d4af89844dd0c7be3931cd3d89e230723f",
+  "size": 200449926,
+  "releaseDate": "2026-10-20T14:05:25.194Z",
   "mandatory": false,
-  "notes": "- Cheques and promissory notes: each cheque has its serial no, bank and drawer (required when it is received or issued) and a status: In portfolio, Collected, Endorsed, Bounced, Issued, Paid\n- Cheque list (new menu item Entries › Cheques / notes): one row per cheque with maturity, serial no, account / drawer, status, place, amount, collected and remaining; the row menu collects, endorses, pays or marks a cheque as bounced\n- Transfers and payments with a cheque box pick the cheques from the portfolio; the amount comes from the selection\n- Own cheques and own promissory notes are new payment types, booked to issued cheques / notes payable and paid from the bank at maturity\n- Bounced cheque in one step, also for an endorsed or collected cheque: the customer receivable (and the supplier debt) open again\n- Refund on a closed day: collections, payments, income, expenses, transfers, sales and purchases get a Refund command with a reason and a partial amount; sales and purchase returns close the open installments without moving money and post to sales returns\n- Lists show \"Refund\", \"Refunded\" or \"Partly refunded\" in the Status column, and the Status filter selects them; cancelling a refund restores the original\n- After saving a collection or payment you are asked whether to print a receipt; Receipt is also in the row menu (right-click) of the lists\n- Payment types: new main types are no longer added (add them under a system type), the account is assigned automatically, and a new In kind system type\n- Transfers cannot take more than the source box holds (bank and credit card may go negative)\n- Realized exchange difference is a separate line in the voucher and in account statements\n- Loans received can have an installment plan; an advance is offset automatically against the next accrual\n- Income and expense records take an invoice / receipt no and require a note; the request window can be moved; the statement prints on its own\n- Cash flow: a cheque still in the portfolio stays expected until it is collected; a bounced cheque is no cash\n- Income and expense: a note appears when another record already has the same invoice / receipt no (saving is not blocked)\n- Due templates are grouped as daily, weekly and monthly and sorted from short to long in the entry forms\n- Financial reports are ordered: statements, books, financial reports, financial analysis\n- Column filters open above the table rows (they were hidden behind the chart of accounts)\n- New grid menu: the button next to search in the top bar shows all your screens as icon tiles, with search\n- This update is for Windows; the macOS and Linux versions stay on their current version",
+  "notes": "- Quick entry is one form: the first field is the record type (receivable, payable, collection, payment, income, expense, transfer) and the fields change with it; it opens with Income; the earlier layout with type buttons on top is kept as \"Tabbed entry\"\n- Payments and expenses cannot take more than the cash box holds (also cheque, POS and similar boxes; bank and credit card may go negative), and every payment type shows its current balance in the entry forms, e.g. \"Cash (35,675.56)\"\n- Transfers between accounts and \"Account to income\": move a balance from one account to another, or turn an overpayment (or a small debt) into income of the chosen type\n- New Grid and Tiles themes: the menu groups as tiles in the top bar, all screens as a grid after sign-in, open pages as tabs; screen icons can also be shown as colored tiles (Settings › Screen icons)\n- Reports and the account list show amounts in your local currency; \"Currency\" adds the unit and the foreign amount next to the local amount\n- Payment type reports are tabs of the Daily cash book\n- Lists with a right-click menu show a small mouse icon in the header; active filters appear as chips next to \"Clear filters\" and can be removed one by one\n- Cheques / notes: status buttons above the list; correcting a cheque record keeps its payment type, and a moved cheque is no longer offered for correction\n- Opening balances: a wrong opening record can be cancelled before the first day close, and corrected with a reversing record afterwards; cheques are entered as collections, not as carried-over cash; carried-over amounts use the usual number format\n- The account type can be changed even when the account has records\n- Projects report: choose a project by name in the detail\n- Transfers: a ready-made \"Gift voucher → Bank\" choice\n- Fixed: an \"Account to income\" record showed as a receivable; installment plan preview in collections; translated categories in the opening import template\n- This update is for Windows; the macOS and Linux versions stay on their current version",
   "assets": {
     "win-x64": {
-      "asset": "LedgerPro-v1.6.9-win-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.9/LedgerPro-v1.6.9-win-x64.zip",
-      "sha256": "aebbd896250ff56a8a9a75acae186eec9a95fdcd671f74cc386fa47aa34b3bd4",
-      "size": 199821801
+      "asset": "LedgerPro-v1.6.10-win-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.10/LedgerPro-v1.6.10-win-x64.zip",
+      "sha256": "a656fbf3986c2e15a5bf44b6057903d4af89844dd0c7be3931cd3d89e230723f",
+      "size": 200449926
     },
     "win-arm64": {
-      "asset": "LedgerPro-v1.6.9-win-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.9/LedgerPro-v1.6.9-win-arm64.zip",
-      "sha256": "92c08e521e06b10233048ac2582142d37ba32b7e37414ff818c0cf402620f2e5",
-      "size": 198059031
+      "asset": "LedgerPro-v1.6.10-win-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.10/LedgerPro-v1.6.10-win-arm64.zip",
+      "sha256": "b215e1a099f11a09707ed84bf34a167d3ce65777b1d1971b2766f7a9a78240eb",
+      "size": 198681767
     }
   }
 }
