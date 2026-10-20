@@ -1,25 +1,25 @@
 {
-  "version": "1.6.8",
-  "tag": "v1.6.8",
-  "asset": "LedgerPro-v1.6.8-win-x64.zip",
-  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.8/LedgerPro-v1.6.8-win-x64.zip",
-  "sha256": "7251fcbaea98bd890d92c75e2299e8f75e010aa56db7ed4b604d1123d414d6b3",
-  "size": 199713812,
-  "releaseDate": "2026-10-18T09:05:19.280Z",
+  "version": "1.6.9",
+  "tag": "v1.6.9",
+  "asset": "LedgerPro-v1.6.9-win-x64.zip",
+  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.9/LedgerPro-v1.6.9-win-x64.zip",
+  "sha256": "aebbd896250ff56a8a9a75acae186eec9a95fdcd671f74cc386fa47aa34b3bd4",
+  "size": 199821801,
+  "releaseDate": "2026-10-20T06:24:03.208Z",
   "mandatory": false,
-  "notes": "- Network: the main computer no longer shuts down while others are working; the database closes only after 10 minutes with no activity on any computer, and the program stays open so others can continue once the owner signs in again\n- Network: other computers lock after 10 minutes without activity, as the status bar shows\n- Down payment and installments: choose \"Excluded\" (the rest is split into installments, the down payment is its own closed line) or \"Included\"; Excluded is the default\n- Transaction categories can be linked to a project family: choosing the category fills in the family's current project\n- Project family codes use the first letter and the following consonants (General → GNL); a second project in the same year gets -02\n- Projects report: Profit / Loss and Collection performance are shown as tabs\n- Transfers: ready-made choices for paying the credit card (from bank, cash or POS) and moving money from the card to cash, bank or POS\n- This update is for Windows; the macOS and Linux versions stay on their current version",
+  "notes": "- Cheques and promissory notes: each cheque has its serial no, bank and drawer (required when it is received or issued) and a status: In portfolio, Collected, Endorsed, Bounced, Issued, Paid\n- Cheque list (new menu item Entries › Cheques / notes): one row per cheque with maturity, serial no, account / drawer, status, place, amount, collected and remaining; the row menu collects, endorses, pays or marks a cheque as bounced\n- Transfers and payments with a cheque box pick the cheques from the portfolio; the amount comes from the selection\n- Own cheques and own promissory notes are new payment types, booked to issued cheques / notes payable and paid from the bank at maturity\n- Bounced cheque in one step, also for an endorsed or collected cheque: the customer receivable (and the supplier debt) open again\n- Refund on a closed day: collections, payments, income, expenses, transfers, sales and purchases get a Refund command with a reason and a partial amount; sales and purchase returns close the open installments without moving money and post to sales returns\n- Lists show \"Refund\", \"Refunded\" or \"Partly refunded\" in the Status column, and the Status filter selects them; cancelling a refund restores the original\n- After saving a collection or payment you are asked whether to print a receipt; Receipt is also in the row menu (right-click) of the lists\n- Payment types: new main types are no longer added (add them under a system type), the account is assigned automatically, and a new In kind system type\n- Transfers cannot take more than the source box holds (bank and credit card may go negative)\n- Realized exchange difference is a separate line in the voucher and in account statements\n- Loans received can have an installment plan; an advance is offset automatically against the next accrual\n- Income and expense records take an invoice / receipt no and require a note; the request window can be moved; the statement prints on its own\n- Cash flow: a cheque still in the portfolio stays expected until it is collected; a bounced cheque is no cash\n- Income and expense: a note appears when another record already has the same invoice / receipt no (saving is not blocked)\n- Due templates are grouped as daily, weekly and monthly and sorted from short to long in the entry forms\n- Financial reports are ordered: statements, books, financial reports, financial analysis\n- Column filters open above the table rows (they were hidden behind the chart of accounts)\n- New grid menu: the button next to search in the top bar shows all your screens as icon tiles, with search\n- This update is for Windows; the macOS and Linux versions stay on their current version",
   "assets": {
     "win-x64": {
-      "asset": "LedgerPro-v1.6.8-win-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.8/LedgerPro-v1.6.8-win-x64.zip",
-      "sha256": "7251fcbaea98bd890d92c75e2299e8f75e010aa56db7ed4b604d1123d414d6b3",
-      "size": 199713812
+      "asset": "LedgerPro-v1.6.9-win-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.9/LedgerPro-v1.6.9-win-x64.zip",
+      "sha256": "aebbd896250ff56a8a9a75acae186eec9a95fdcd671f74cc386fa47aa34b3bd4",
+      "size": 199821801
     },
     "win-arm64": {
-      "asset": "LedgerPro-v1.6.8-win-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.8/LedgerPro-v1.6.8-win-arm64.zip",
-      "sha256": "5ed09d238e873e0f23142a69da5d0428e7c18f3bc73611d5b02f9701031d5c16",
-      "size": 197920918
+      "asset": "LedgerPro-v1.6.9-win-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.9/LedgerPro-v1.6.9-win-arm64.zip",
+      "sha256": "92c08e521e06b10233048ac2582142d37ba32b7e37414ff818c0cf402620f2e5",
+      "size": 198059031
     }
   }
 }
