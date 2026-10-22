@@ -1,25 +1,25 @@
 {
-  "version": "1.6.10",
-  "tag": "v1.6.10",
-  "asset": "LedgerPro-v1.6.10-win-x64.zip",
-  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.10/LedgerPro-v1.6.10-win-x64.zip",
-  "sha256": "a656fbf3986c2e15a5bf44b6057903d4af89844dd0c7be3931cd3d89e230723f",
-  "size": 200449926,
-  "releaseDate": "2026-10-20T14:05:25.194Z",
+  "version": "1.6.11",
+  "tag": "v1.6.11",
+  "asset": "LedgerPro-v1.6.11-win-x64.zip",
+  "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.11/LedgerPro-v1.6.11-win-x64.zip",
+  "sha256": "956cb0e5ff95b4e5eff97b79553debc31cfcca5e55c7023544541fbd3f20c73d",
+  "size": 170608304,
+  "releaseDate": "2026-10-22T07:29:12.526Z",
   "mandatory": false,
-  "notes": "- Quick entry is one form: the first field is the record type (receivable, payable, collection, payment, income, expense, transfer) and the fields change with it; it opens with Income; the earlier layout with type buttons on top is kept as \"Tabbed entry\"\n- Payments and expenses cannot take more than the cash box holds (also cheque, POS and similar boxes; bank and credit card may go negative), and every payment type shows its current balance in the entry forms, e.g. \"Cash (35,675.56)\"\n- Transfers between accounts and \"Account to income\": move a balance from one account to another, or turn an overpayment (or a small debt) into income of the chosen type\n- New Grid and Tiles themes: the menu groups as tiles in the top bar, all screens as a grid after sign-in, open pages as tabs; screen icons can also be shown as colored tiles (Settings › Screen icons)\n- Reports and the account list show amounts in your local currency; \"Currency\" adds the unit and the foreign amount next to the local amount\n- Payment type reports are tabs of the Daily cash book\n- Lists with a right-click menu show a small mouse icon in the header; active filters appear as chips next to \"Clear filters\" and can be removed one by one\n- Cheques / notes: status buttons above the list; correcting a cheque record keeps its payment type, and a moved cheque is no longer offered for correction\n- Opening balances: a wrong opening record can be cancelled before the first day close, and corrected with a reversing record afterwards; cheques are entered as collections, not as carried-over cash; carried-over amounts use the usual number format\n- The account type can be changed even when the account has records\n- Projects report: choose a project by name in the detail\n- Transfers: a ready-made \"Gift voucher → Bank\" choice\n- Fixed: an \"Account to income\" record showed as a receivable; installment plan preview in collections; translated categories in the opening import template\n- This update is for Windows; the macOS and Linux versions stay on their current version",
+  "notes": "- Date and amount format in Settings › Appearance: by default the standard of your company's country (e.g. 21.10.2026 and 1.234,56); a chosen format is used in every list, report and amount field\n- Tables fit the screen by default: text columns get narrower and long text ends with \"…\" (the full text shows on hover); amounts and dates keep their width; the \"Fit to screen\" button turns it off per table\n- Pickers with icons and colors for record types, payment types, categories, due templates and projects; the most used choices come first\n- Payment types: change their order with Move up / Move down, and give a payment type a shortcut (Ctrl+1…9) to choose it in entry forms\n- Collections: the account's balance shows next to the account field; choosing installments by hand now fills the amount and takes only what is left of it\n- Tabs: right-click a tab to close it, close the others or close all; the middle mouse button closes a tab\n- Accounts list: a \"Changed details\" filter, and History in the row menu shows every change with date, time, old and new value and the user\n- Cheques and notes: the type (cheque or note) shows with an icon and color\n- Opening balances: carried-over cash, assets and account balances are separate tabs; assets owned before you started can also be entered after the first day close\n- Gold and foreign currency in financial statements are valued at the last real rate, including the rate entered in the opening balances\n- Network: a computer removed on the host is told so and can pair again from the login screen; \"Set up this computer again\" starts the setup over\n- Download: the manual Windows ZIP now opens into a \"LedgerPro\" folder, and the package is smaller\n- Fixed: \"Reset data\" removed the other users; a record showed matches released by earlier corrections; the program window reloads by itself after a display crash\n- This update is for Windows; the macOS and Linux versions stay on their current version",
   "assets": {
     "win-x64": {
-      "asset": "LedgerPro-v1.6.10-win-x64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.10/LedgerPro-v1.6.10-win-x64.zip",
-      "sha256": "a656fbf3986c2e15a5bf44b6057903d4af89844dd0c7be3931cd3d89e230723f",
-      "size": 200449926
+      "asset": "LedgerPro-v1.6.11-win-x64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.11/LedgerPro-v1.6.11-win-x64.zip",
+      "sha256": "956cb0e5ff95b4e5eff97b79553debc31cfcca5e55c7023544541fbd3f20c73d",
+      "size": 170608304
     },
     "win-arm64": {
-      "asset": "LedgerPro-v1.6.10-win-arm64.zip",
-      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.10/LedgerPro-v1.6.10-win-arm64.zip",
-      "sha256": "b215e1a099f11a09707ed84bf34a167d3ce65777b1d1971b2766f7a9a78240eb",
-      "size": 198681767
+      "asset": "LedgerPro-v1.6.11-win-arm64.zip",
+      "downloadUrl": "https://github.com/ledgerproapp/ledgerpro_releases/releases/download/v1.6.11/LedgerPro-v1.6.11-win-arm64.zip",
+      "sha256": "e7ab9f0650431c9126c49d936f79075fe65f6ad565f9fe6ea3d72a357caaea4a",
+      "size": 168840918
     }
   }
 }
